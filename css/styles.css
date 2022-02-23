@@ -1,0 +1,144 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* custom properties */
+
+:root {
+    --clr-dark: #1F2937;
+    --clr-gray: #E5E7Eb; 
+}
+
+/* typography */
+
+.this-website-title {
+    font-family: roboto;
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.header-links {
+    font-family: roboto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.button {
+    background-color: #3882F6;
+}
+
+.random-information-title {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-weight: light italic;
+    color:#1F2937;
+    font-size: 36px;
+}
+
+/* General Styles */
+
+header {
+    background-color: var(--clr-dark);
+}
+
+.this-website {
+    background-color: #1F2937;
+}
+
+footer {
+    background-color: #1F2937;
+    color:#E5E7EB;
+    text-align: center;
+}
+
+.quote {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+.quote-actual {
+    padding: 20px;
+    border: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.quote-actual-person {
+    text-align: right;
+}
+
+.flex-container {
+    display: flex;
+    padding: 16px;
+    border: 4px;
+    gap: 8px;
+  }
+  
+  /* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: white;
+    border: 4px solid blue;
+    height: 100px;
+    flex: 1;
+    /* flex: 1; */
+  }
+
+  .flex-text {
+      text-align: center;
+  }
+
+  .random-information-title {
+      text-align: center;
+      position: relative;
+  }
+
+  .quote {
+      background-color: var(--clr-gray);
+  }
+
+.sign-up-area {
+    text-align: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    margin: auto;
+    width: 50%;
+    border: 15px solid #3882F6;
+    padding: 50px;
+    padding: 10px;
+}
+
+.header-links {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 20px;
+    color: #E5E7EB;
+}
+
+.this-website-title-about {
+    color: #E5E7EB;
+    }
+
+img {
+    float: right;
+margin-right: 0px 0px 0px 30px;
+width: 150px;
+height: 38px;
+}
+
+.this-website {
+    padding: 100px;
+}
